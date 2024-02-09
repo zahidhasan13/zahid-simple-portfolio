@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="bg-[#20242D] min-h-screen">
-      <div className="grid max-w-screen-xl px-4 py-16 mx-auto lg:gap-8 xl:gap-0 lg:pt-32 lg:grid-cols-12">
+      <div className="grid max-w-screen-xl px-4 pt-20 mx-auto lg:gap-8 xl:gap-0 lg:pt-20 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7 text-white">
           <h3 className="text-xl font-semibold tracking-tight leading-none md:text-2xl xl:text-3xl">
             Hello, It's Me
@@ -15,7 +15,7 @@ const Hero = () => {
             And I'm a{" "}
             <span className="text-[#04D1E0]">Front End Developer</span>
           </h3>
-          <p className="lg:mt-10 lg:text-sm lg:w-[80%]">
+          <p className="lg:mt-10 lg:text-sm lg:w-[80%] my-10">
             {" "}
             I have been working in this field for 1+ years. I am expert in
             Front-End development using HTML, CSS, BOOTSTRAP, TAILWIND CSS,
@@ -49,12 +49,12 @@ const Hero = () => {
               download
               className="text-[#20242D] bg-[#04D1E0] shadow-lg shadow-[#04D1E0]/50 font-semibold px-6 py-2 rounded-full"
             >
-              Download CV
+              Download Resume
             </a>
           </div>
         </div>
-        <div className="lg:mt-0 lg:col-span-5 lg:flex">
-          <img src="/hero.png" alt="mockup" />
+        <div className="lg:mt-0 lg:col-span-5 lg:flex my-20 lg:my-0">
+          <img src="/hero.png" alt="mockup" className="lg:mt-10" />
         </div>
       </div>
     </section>
