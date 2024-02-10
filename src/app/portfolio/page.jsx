@@ -87,28 +87,6 @@ const page = () => {
           <div className="order-3">
             <img src="web2.png" alt="mockup" className="rounded-lg h-[350px]" />
           </div>
-          <div className="order-5">
-            <img src="web3.png" alt="mockup" className="rounded-lg h-[350px]" />
-          </div>
-          <div className="space-y-6 order-6">
-            <h2 className="lg:text-4xl">Destiny Shop</h2>
-            <p className="lg:text-lg">
-              This is a shopping E-commerce website. It using ReactJS for Front
-              End development, Firebase for Authentication, NodeJS for Back End
-              development and MongoDB for Database.
-            </p>
-            <div className="flex items-center space-x-4">
-              {img.map((i) => (
-                <img src={i.img} alt={i.img} className="w-10" />
-              ))}
-            </div>
-            <a
-              href="https://the-dragon-news-client-d2bff.web.app/categories/0"
-              className="inline-block text-[#20242D] bg-[#04D1E0] shadow-lg shadow-[#04D1E0]/50 font-semibold px-6 py-2 rounded-full"
-            >
-              Visit Website
-            </a>
-          </div>
           <div className="space-y-6 order-8">
             <h2 className="lg:text-4xl">Netflix Clone</h2>
             <p className="lg:text-lg">
