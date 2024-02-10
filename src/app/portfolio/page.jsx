@@ -78,7 +78,7 @@ const page = () => {
               ))}
             </div>
             <a
-              href="https://the-dragon-news-client-d2bff.web.app/categories/0"
+              href="https://bistro-boss-4fb52.web.app/"
               className="inline-block text-[#20242D] bg-[#04D1E0] shadow-lg shadow-[#04D1E0]/50 font-semibold px-6 py-2 rounded-full"
             >
               Visit Website
@@ -121,7 +121,7 @@ const page = () => {
               ))}
             </div>
             <a
-              href="https://the-dragon-news-client-d2bff.web.app/categories/0"
+              href="https://netflix-clone-2c832.web.app/"
               className="inline-block text-[#20242D] bg-[#04D1E0] shadow-lg shadow-[#04D1E0]/50 font-semibold px-6 py-2 rounded-full"
             >
               Visit Website

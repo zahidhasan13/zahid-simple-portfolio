@@ -1,11 +1,19 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const header = () => {
   const pathname = usePathname();
-  const [openMenu, setOpenMenu] = useState(false);
+  const [menuClose, setMenuClose] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuClose(!menuClose);
+  };
+  useEffect(() => {
+    setMenuClose(false);
+  }, [pathname]);
+
   return (
     <header className="absolute top-0 left-0 right-0">
       <nav className="px-4 lg:px-6 py-2.5">
@@ -17,7 +25,7 @@ const header = () => {
           </Link>
           <div className="flex items-center">
             <button
-              onClick={() => setOpenMenu(!openMenu)}
+              onClick={() => toggleMenu()}
               data-collapse-toggle="mobile-menu-2"
               type="button"
               className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100"
@@ -53,7 +61,7 @@ const header = () => {
           </div>
           <div
             className={`${
-              openMenu ? "block" : "hidden"
+              menuClose ? "block" : "hidden"
             } justify-between items-center w-full lg:flex lg:w-auto  bg-[#20242D] lg:bg-transparent px-4 pb-4 lg:px-0 lg:pb-0`}
             id="mobile-menu-2"
           >
