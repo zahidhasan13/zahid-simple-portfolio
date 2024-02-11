@@ -67,7 +67,7 @@ const page = () => {
             </p>
             <div className="flex items-center space-x-4">
               {img.map((i) => (
-                <img src={i.img} alt={i.img} className="w-10" />
+                <img key={i.id} src={i.img} alt={i.img} className="w-10" />
               ))}
             </div>
             <a
@@ -92,7 +92,7 @@ const page = () => {
             </p>
             <div className="flex items-center space-x-4">
               {img.map((i) => (
-                <img src={i.img} alt={i.img} className="w-10" />
+                <img key={i.id} src={i.img} alt={i.img} className="w-10" />
               ))}
             </div>
             <a
@@ -118,7 +118,7 @@ const page = () => {
             </p>
             <div className="flex items-center space-x-4">
               {img.map((i) => (
-                <img src={i.img} alt={i.img} className="w-10" />
+                <img key={i.id} src={i.img} alt={i.img} className="w-10" />
               ))}
             </div>
             <a
