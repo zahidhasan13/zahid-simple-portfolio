@@ -80,18 +80,6 @@ const header = () => {
               </li>
               <li>
                 <Link
-                  href="/skill"
-                  className={`link ${
-                    pathname === "/skill"
-                      ? "text-[#04D1E0] font-bold"
-                      : " text-white font-bold"
-                  }`}
-                >
-                  Skill
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/portfolio"
                   className={`link ${
                     pathname === "/portfolio"

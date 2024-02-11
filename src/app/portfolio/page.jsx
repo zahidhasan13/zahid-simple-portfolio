@@ -43,10 +43,20 @@ const page = () => {
           </h1>
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1 justify-center items-center gap-10">
-          <div className="order-1">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="order-1"
+          >
             <img src="web1.png" alt="mockup" className="rounded-lg h-[350px]" />
           </div>
-          <div className="space-y-6 order-2">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="space-y-6 order-2"
+          >
             <h2 className="lg:text-4xl">The Dragon News</h2>
             <p className="lg:text-lg">
               This is a online newspaper site. It using ReactJS for Front End
@@ -64,7 +74,7 @@ const page = () => {
               Visit Website
             </a>
           </div>
-          <div className="space-y-6 order-4">
+          <div data-aos="fade-up" className="space-y-6 order-4">
             <h2 className="lg:text-4xl">Bistro Boss Restraurent</h2>
             <p className="lg:text-lg">
               This is a E-commece Restrurent site. It using ReactJS for Front
@@ -84,10 +94,10 @@ const page = () => {
               Visit Website
             </a>
           </div>
-          <div className="order-3">
+          <div data-aos="fade-up" className="order-3">
             <img src="web2.png" alt="mockup" className="rounded-lg h-[350px]" />
           </div>
-          <div className="space-y-6 order-8">
+          <div data-aos="fade-up" className="space-y-6 order-8">
             <h2 className="lg:text-4xl">Netflix Clone</h2>
             <p className="lg:text-lg">
               This is a Netflix Clone. It using ReactJS for Front End
@@ -105,7 +115,7 @@ const page = () => {
               Visit Website
             </a>
           </div>
-          <div className="order-7">
+          <div data-aos="fade-up" className="order-7">
             <img src="web4.png" alt="mockup" className="rounded-lg h-[350px]" />
           </div>
         </div>
