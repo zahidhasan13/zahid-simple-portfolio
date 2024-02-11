@@ -1,3 +1,6 @@
+import Animation from "../../components/Animation";
+Animation;
+
 const page = () => {
   const img = [
     {
@@ -74,7 +77,12 @@ const page = () => {
               Visit Website
             </a>
           </div>
-          <div data-aos="fade-up" className="space-y-6 order-4">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="space-y-6 order-4"
+          >
             <h2 className="lg:text-4xl">Bistro Boss Restraurent</h2>
             <p className="lg:text-lg">
               This is a E-commece Restrurent site. It using ReactJS for Front
@@ -94,10 +102,15 @@ const page = () => {
               Visit Website
             </a>
           </div>
-          <div data-aos="fade-up" className="order-3">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="order-3"
+          >
             <img src="web2.png" alt="mockup" className="rounded-lg h-[350px]" />
           </div>
-          <div data-aos="fade-up" className="space-y-6 order-8">
+          <div data-aos="fade-right" className="space-y-6 order-8">
             <h2 className="lg:text-4xl">Netflix Clone</h2>
             <p className="lg:text-lg">
               This is a Netflix Clone. It using ReactJS for Front End
@@ -115,7 +128,12 @@ const page = () => {
               Visit Website
             </a>
           </div>
-          <div data-aos="fade-up" className="order-7">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="order-7"
+          >
             <img src="web4.png" alt="mockup" className="rounded-lg h-[350px]" />
           </div>
         </div>

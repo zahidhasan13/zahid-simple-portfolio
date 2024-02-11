@@ -5,7 +5,8 @@ import {
   FaCircleArrowRight,
   FaHeart,
 } from "react-icons/fa6";
-
+import Animation from "../../components/Animation";
+Animation;
 const page = () => {
   return (
     <section className="bg-[#20242D] min-h-screen text-white mb-10">
@@ -54,7 +55,11 @@ const page = () => {
                 <p>Currently I am learning Next JS and necesssary packages.</p>
               </div>
             </div>
-            <div data-aos="fade-up">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <h1 className="flex items-center space-x-6 text-4xl font-bold mb-5">
                 <FaGraduationCap />
                 <span className="">EDUCATION</span>
@@ -86,7 +91,11 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in"
+            >
               <h1 className="flex items-center space-x-6 text-4xl font-bold mb-5">
                 <FaHeart />
                 <span className="uppercase">love to do</span>
