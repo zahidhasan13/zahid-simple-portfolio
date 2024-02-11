@@ -6,6 +6,7 @@ const Hero = () => {
   return (
     <section className="bg-[#20242D] min-h-screen">
       <div className="grid max-w-screen-xl px-4 pt-20 mx-auto lg:gap-8 xl:gap-0 lg:pt-20 lg:grid-cols-12">
+        {/* Animation */}
         <div
           data-aos="fade-right"
           data-aos-duration="1000"
