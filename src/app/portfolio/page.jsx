@@ -65,7 +65,7 @@ const page = () => {
               This is a online newspaper site. It using ReactJS for Front End
               development, Firebase for Authentication, and news API.
             </p>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center flex-wrap gap-4">
               {img.map((i) => (
                 <img key={i.id} src={i.img} alt={i.img} className="w-10" />
               ))}
@@ -81,7 +81,7 @@ const page = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            className="space-y-6 order-4"
+            className="space-y-6 order-4 md:order-3"
           >
             <h2 className="lg:text-4xl">Bistro Boss Restraurent</h2>
             <p className="lg:text-lg">
@@ -90,7 +90,7 @@ const page = () => {
               Authentication, JWT for authentication verification and MongoDB
               for Database. It has Admin and User dashboard.
             </p>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center flex-wrap gap-4">
               {img.map((i) => (
                 <img key={i.id} src={i.img} alt={i.img} className="w-10" />
               ))}
@@ -103,20 +103,25 @@ const page = () => {
             </a>
           </div>
           <div
-            data-aos="fade-right"
+            data-aos="fade-left"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            className="order-3"
+            className="order-3 md:order-4"
           >
             <img src="web2.png" alt="mockup" className="rounded-lg h-[350px]" />
           </div>
-          <div data-aos="fade-right" className="space-y-6 order-8">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="space-y-6 order-6"
+          >
             <h2 className="lg:text-4xl">Netflix Clone</h2>
             <p className="lg:text-lg">
               This is a Netflix Clone. It using ReactJS for Front End
               development, Firebase for Authentication and API Integration.
             </p>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center flex-wrap gap-4">
               {img.map((i) => (
                 <img key={i.id} src={i.img} alt={i.img} className="w-10" />
               ))}
@@ -132,7 +137,7 @@ const page = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            className="order-7"
+            className="order-5"
           >
             <img src="web4.png" alt="mockup" className="rounded-lg h-[350px]" />
           </div>

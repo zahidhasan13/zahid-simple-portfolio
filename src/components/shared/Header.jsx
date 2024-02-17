@@ -90,7 +90,7 @@ const header = () => {
                   Portfolio
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/contact"
                   className={`link ${
@@ -101,7 +101,7 @@ const header = () => {
                 >
                   Contact
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
