@@ -72,6 +72,7 @@ const page = () => {
             </div>
             <a
               href="https://the-dragon-news-client-d2bff.web.app/categories/0"
+              target="_blank"
               className="inline-block text-[#20242D] bg-[#04D1E0] shadow-lg shadow-[#04D1E0]/50 font-semibold px-6 py-2 rounded-full"
             >
               Visit Website
@@ -97,6 +98,7 @@ const page = () => {
             </div>
             <a
               href="https://bistro-boss-4fb52.web.app/"
+              target="_blank"
               className="inline-block text-[#20242D] bg-[#04D1E0] shadow-lg shadow-[#04D1E0]/50 font-semibold px-6 py-2 rounded-full"
             >
               Visit Website
@@ -128,6 +130,7 @@ const page = () => {
             </div>
             <a
               href="https://netflix-clone-2c832.web.app/"
+              target="_blank"
               className="inline-block text-[#20242D] bg-[#04D1E0] shadow-lg shadow-[#04D1E0]/50 font-semibold px-6 py-2 rounded-full"
             >
               Visit Website
@@ -140,6 +143,38 @@ const page = () => {
             className="order-5"
           >
             <img src="web4.png" alt="mockup" className="rounded-lg h-[350px]" />
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="space-y-6 order-8 md:order-7"
+          >
+            <h2 className="lg:text-4xl">Weather App</h2>
+            <p className="lg:text-lg">
+              This is a Weather App. It using ReactJS for Front End development,
+              and API integration.
+            </p>
+            <div className="flex items-center flex-wrap gap-4">
+              {img.map((i) => (
+                <img key={i.id} src={i.img} alt={i.img} className="w-10" />
+              ))}
+            </div>
+            <a
+              href="https://weather-app-nu-vert-22.vercel.app/"
+              target="_blank"
+              className="inline-block text-[#20242D] bg-[#04D1E0] shadow-lg shadow-[#04D1E0]/50 font-semibold px-6 py-2 rounded-full"
+            >
+              Visit Website
+            </a>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="order-7 md:order-8"
+          >
+            <img src="web3.png" alt="mockup" className="rounded-lg h-[350px]" />
           </div>
         </div>
       </div>
