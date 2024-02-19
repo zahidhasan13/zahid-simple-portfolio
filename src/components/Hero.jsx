@@ -55,7 +55,8 @@ const Hero = () => {
           </div>
           <div className="mt-10">
             <a
-              href="https://drive.google.com/file/d/1QrL8J8XOJdX_fiO1s3l8lM_uIuzy8hnv/view"
+              href="https://drive.google.com/file/d/1528vo8FoLdeR0Dj_ShBZA6MtxWAzXISC/view?usp=sharing"
+              target="_blank"
               download
               className="text-[#20242D] bg-[#04D1E0] shadow-lg shadow-[#04D1E0]/50 font-semibold px-6 py-2 rounded-full"
             >
